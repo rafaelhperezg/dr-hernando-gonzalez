@@ -1,1 +1,91 @@
-main
+/*
+ *
+ * Commmun
+ *
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+  border: 1px solid red !important;
+}
+
+img, object, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  margin: 10px auto;
+}
+
+
+/*
+ *
+ * Top Level Navigation
+ *
+ */
+
+/* word MENU on small nav bar*/
+.word_menu { /*copied from bootstrap .nav-brand, only float modified, initially it was left*/
+  float: right;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  color:#777;
+  margin-bottom: 0;
+}
+
+.navbar-toggle { /*here we modify this Bootstrap class -> +padding and -margins, to enlarge the click zone of the button*/
+  padding: 13px 11px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/**/
+
+
+
+.proc1 {
+  max-width: 100%;
+  margin:0;
+  padding:0;
+}
+
+
+/*
+ *
+ *Content in small devices
+ *
+ */
+
+.title-procedures {
+  /*margin: 10px auto;*/
+  color: #337ab7;
+}
+
+.photo-link-procedures {
+  text-align: right;
+  float: right;
+}
+
+.link-procedures {
+  margin:0;
+}
+
+
+
+
+
+
