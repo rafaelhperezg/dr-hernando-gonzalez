@@ -20,6 +20,13 @@ img, object, video {
   height: auto;
 }
 
+
+body {
+  font-size: 16px;
+  line-height: 1.2em;
+}
+
+
 /*
  *
  * Header
@@ -70,34 +77,88 @@ img, object, video {
  *
  */
 
-.title-procedures {
-  /*margin: 10px auto;*/
+.procedures-two-types-container {
+  flex-grow:1;
+  clear: both; /*this seems to do nothing*/
+  /*padding: 1em; i took this off because it push the box and i want it alligned with the carrussel*/
+}
+
+.procedures-two-types-container ul {
+  list-style: none;
+}
+
+
+.procedures-two-types-list {
+  margin-top: -10px;
+}
+
+
+.procedures-two-types {
+  clear: both;
+  margin: 24px 0;
+}
+
+
+.procedures-two-types-main-title {
   color: #337ab7;
+  margin-bottom:0;
 }
 
-.photo-link-procedures {
-  text-align: right;
-  float: right;
+
+.procedures-two-types-picture {
+  width: 100px;
+  float: left;
+  /*margin-right: 0.25em;*/
 }
 
-.link-procedures {
-  margin:0;
-  display: -webkit-flex; /* Safari */
-  -webkit-justify-content: space-around; /* Safari 6.1+ */
+
+.procedures-two-types-title {
+  font-weight: 500;
+  text-align: left;
+}
+
+
+.procedures-two-types-title a {
+  text-decoration: none; /*this seems to do nothing*/
+  color: #337ab7;
+  /*padding: 1.5em inherit;*//*i took off this padding because it makes th firs word to move to the right and is not beautiful*/
+}
+
+.procedures-two-types-title a:hover,
+.procedures-two-types-title a:active {
+  text-decoration: underline;
+}
+
+
+/*From here FINAL CSS style from the course. i erased the .snippet_title style because i dont have that title*/
+
+.procedures-two-types-picture a img {
+  width: 100%;
+}
+
+.procedures-two-types {
   display: flex;
-  justify-content: space-around;
-  }
-
-.space-around{
-      display: -webkit-flex; /* Safari */
-      -webkit-justify-content: space-around; /* Safari 6.1+ */
-      display: flex;
-      justify-content: space-around;
-  }
-
-.test-margin {
-  margin-top: 10px;
+  flex-wrap: wrap;
 }
+
+
+.procedures-two-types-picture {
+  order: 1;
+  width: 30%;
+}
+
+.procedures-two-types-title {
+  order: 2;
+  width: 65%;
+  margin: 0;
+  padding: 0 0 0 1em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+
 
 
 
