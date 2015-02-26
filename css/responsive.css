@@ -1,1 +1,28 @@
+/************MINOR BREAK POINT****************/
 
+@media screen and (max-width: 250px) {
+	
+	.carousel-caption{
+		font-size: 10px;
+	}
+
+
+	.procedures-two-types-main-title{
+		font-size: 18px;
+	}
+
+
+	.procedures-two-types-title {
+		font-size: 16px;
+	}
+}
+
+
+/************MINOR BREAK POINT****************/
+
+@media screen and (max-width: 350px) {
+
+	.procedures-two-types-title {
+		font-size: 22px;
+	}
+}
