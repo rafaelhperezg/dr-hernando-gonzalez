@@ -151,11 +151,7 @@ body {
   order: 2;
   width: 65%;
   margin: 0;
-  padding: 0 0 0 1em;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
+  padding: 0 0 0 0.75em;
 }
 
 
