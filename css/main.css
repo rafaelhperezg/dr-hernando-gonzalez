@@ -83,13 +83,10 @@ body {
   /*padding: 1em; i took this off because it push the box and i want it alligned with the carrussel*/
 }
 
-.procedures-two-types-container ul {
-  list-style: none;
-}
-
 
 .procedures-two-types-list {
   margin-top: -10px;
+  list-style: none;
 }
 
 
