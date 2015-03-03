@@ -15,6 +15,10 @@
   /*border: 1px solid red !important;*/
 }
 
+
+.container {
+  max-width: 960px;
+}
 img, object, video {
   max-width: 100%;
   height: auto;
@@ -37,6 +41,30 @@ body {
   margin: 10px auto;
 }
 
+
+.logo-dr,
+.logo-subtitle-sccp {
+  margin: 0;
+  padding: 0;
+}
+
+
+.text-sccp,
+.logo-subtitle-sccp {
+  text-align: right;
+}
+
+
+.text-sccp {
+margin-top:25px;
+padding:auto;
+}
+
+
+.logo-subtitle-sccp {
+  float:right;
+  max-width: 100px;
+}
 
 /*
  *
