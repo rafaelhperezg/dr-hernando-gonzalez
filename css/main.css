@@ -15,6 +15,15 @@
   /*border: 1px solid red !important;*/
 }
 
+/*
+ *
+ * Content for Big devices
+ *
+ */
+
+.text-welcome {
+  /*float: right;*/
+}
 
 
 /*****Procedimientos frecuentes  -> here now just for test later i'll put it down******/
@@ -22,16 +31,8 @@
   margin-bottom: 15px;
 }
 
-
-.photo-proced-frec {
-  margin: 0;
-  padding: 0;
-}
-
-
-.title-proced-frec{
-  margin: 0 0 0 2px;
-  padding: 0;
+.container-each-proced-frec {
+  padding-bottom: 10px;
 }
 
 
@@ -44,6 +45,12 @@
 
 .text-proced-frec ul li {
   margin-bottom: 2px;
+}
+
+
+.title-proced-frec {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*end procedures ***/
@@ -133,15 +140,6 @@ padding:auto;
 }
 
 
-/*
- *
- * Content for Big devices
- *
- */
-
-.text-welcome {
-  float: right;
-}
 
 
 /*
