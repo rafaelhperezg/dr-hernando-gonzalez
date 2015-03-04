@@ -17,16 +17,37 @@
 
 
 
-
-
-#carousel-example-generic {
-  width:45%;
-  display: inline-block;
+/*****Procedimientos frecuentes  -> here now just for test later i'll put it down******/
+.main-title-proced-frec {
+  margin-bottom: 15px;
 }
 
-.text-welcome {
-  float: right;
+
+.photo-proced-frec {
+  margin: 0;
+  padding: 0;
 }
+
+
+.title-proced-frec{
+  margin: 0 0 0 2px;
+  padding: 0;
+}
+
+
+.text-proced-frec ul {
+  list-style: none;
+  margin: 0 0 0 15px;
+  padding:0;
+}
+
+
+.text-proced-frec ul li {
+  margin-bottom: 2px;
+}
+
+/*end procedures ***/
+
 
 
 .container {
@@ -111,6 +132,16 @@ padding:auto;
   padding:0;
 }
 
+
+/*
+ *
+ * Content for Big devices
+ *
+ */
+
+.text-welcome {
+  float: right;
+}
 
 
 /*
