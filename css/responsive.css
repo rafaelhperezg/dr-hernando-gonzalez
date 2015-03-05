@@ -52,4 +52,10 @@
 	  /*max-height: 300px;*/
 	  /*display: inline-block;*/
 	}
+	
+	/*code to delete the space at the left of the "Portada" item in the navbar*/
+	.container-fluid,
+	.navbar-collapse {
+	  padding-left: 0!important;
+	}
 }
