@@ -60,6 +60,8 @@
 .container {
   max-width: 960px;
 }
+
+
 img, object, video {
   max-width: 100%;
   height: auto;
@@ -97,8 +99,8 @@ body {
 
 
 .text-sccp {
-margin-top:25px;
-padding:auto;
+  margin-top:25px;
+  padding:auto;
 }
 
 
@@ -223,7 +225,36 @@ padding:auto;
 }
 
 
+/*____________________FOOTER__________________*/
+
+.footer {
+  margin-top: 30px;
+  background-color: #e7e7e7;
+}
 
 
+.footer-title{
+  border-bottom: 1px solid black;
+}
 
 
+.footer-title h3{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+.footer-content {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-top: 0;
+}
+
+.footer-contact-detail {
+  padding-left: 10px;
+  /*padding-bottom: 40px;*/
+}
+
+.rafa {
+  padding-left: 10px;
+}
